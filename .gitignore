@@ -1,0 +1,7 @@
+# Ignore various tex build artifacts
+*.aux
+*.out
+*.log
+
+# Ignore final output
+*.pdf
