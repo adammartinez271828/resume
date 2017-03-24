@@ -3,7 +3,8 @@
 Package requirements:
 * fonts-ebgaramond
 * texlive
-* texmaker
 * texlive-luatex
 
-Build with luatex.
+Build with lualatex.
+
+texmaker/texstudio may help.
