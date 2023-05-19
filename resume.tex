@@ -17,7 +17,7 @@
 %    PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[letterpaper, 11pt]{article} % Default font size and paper size
+\documentclass[letterpaper, 10pt]{article} % Default font size and paper size
 
 \usepackage{fontspec} % For loading fonts
 %\defaultfontfeatures{Ligatures=TeX}
@@ -41,7 +41,10 @@
 
 \begin{document}
 
-\pagestyle{empty} % Removes page numbering
+\pagestyle{empty}  % Removes page numbering
+
+\topskip 0pt
+\vspace*{\fill}  % vertically center
 
 %----------------------------------------------------------------------------------------
 %    NAME AND CONTACT INFORMATION
@@ -66,11 +69,10 @@
 \textsc{Senior Data Science Manager \hfill Jan 2020 - Present} \\
 \textsc{PNC Financial Services \hfill Cleveland, OH} \\
 Subject matter expert and strategic advisor to executive leadership for machine learning (ML) application delivery.
-Trained teams of centralized and line-of-business Machine Learning engineering talent.
-Designed and led delivery of a CI process for data science-related open-source dependency management.
-Proposed, designed, and led development of a ``Lightweight'' model delivery framework for rapidly moving ML models from lab to production environments.
-Acted as agile product owner for Lightweight model delivery framework project.
-Led architectural design and technical delivery of PNC's Low Cash Mode predictive analytics model.
+Trained Machine Learning Engineers for enterprise-wide Center of Excellence.
+Designed and delivered a CI process leveraging Jenkins/Artifactory/Conda-pack for data science-related open-source dependency management.
+Proposed, designed, and led development of a ``Lightweight'' model delivery framework for rapidly moving ML models from lab to production environments, acting as both Agile product owner and application owner.
+Led product solution design and technical delivery for a variety of models to include Random Forest, XGBoost, HDBSCAN, ARIMA/SARIMAX, implemented with scikit-learn, NLTK, Kafka, OpenShift, FastAPI, and PySpark on Hadoop.
 
 \textsc{Principal Application Developer \hfill Mar 2019 - Dec 2019} \\
 \textsc{PNC Financial Services \hfill Brecksville, OH} \\
@@ -85,12 +87,14 @@ Python technical lead for 4 crews (\textasciitilde 32 developers/ analysts).
 Provided wing-level (scrum-of-scrum) technical guidance.
 Assisted crews with story grooming, sprint planning, and setting and maintaining standards of technical excellence.
 Provided training and education on new/developing technologies for all crews.
+Designed and oversaw development of data pipeline for supporting CCAR, DFAST, and CECL regulatory reporting requirements with Pandas/Dask/Matplotlib.
 
 % \textsc{Senior Application Developer \hfill Mar 2016 - May 2017} \\
 \textsc{Application Developer / Senior Application Developer \hfill May 2015 - May 2017} \\
 \textsc{PNC Financial Services \hfill Brecksville, OH} \\
 Led a team of 9 developers to build web-based and system automation tools for CCAR, DFAST, and CECL regulatory modeling efforts.
 Designed system architecture and wrote high-level design documents.
+Designed and implemented a solution for a back-end job queuing system on a SAS Grid.
 Wrote proof-of-concept software for ML classification of financial data with PySpark/Hadoop.
 Drove adoption of Git source code management software and software development best practices, including integrations with Jenkins and IBM uDeploy to enable continuous integration and delivery.
 
@@ -179,5 +183,7 @@ Thesis: ``A Geometric Tiling Algorithm For Approximating Minimal Covering Sets''
 %        C,
 %        Rust,
 %        Go. \\
+
+\vspace*{\fill}
 
 \end{document}
